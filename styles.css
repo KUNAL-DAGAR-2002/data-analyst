@@ -336,6 +336,100 @@ h3 {
   object-fit: contain;
 }
 
+.ecommerce-preview {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  color: #202938;
+  background: #f3f6f8;
+}
+
+.ecommerce-preview-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ecommerce-preview-header span,
+.ecommerce-kpis span {
+  color: #617086;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.ecommerce-preview-header strong {
+  font-size: 1.05rem;
+}
+
+.ecommerce-kpis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.ecommerce-kpis div,
+.ecommerce-insight {
+  padding: 10px;
+  border: 1px solid #dfe5ea;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.ecommerce-kpis span,
+.ecommerce-kpis strong {
+  display: block;
+}
+
+.ecommerce-kpis strong {
+  margin-top: 5px;
+  color: #0b7567;
+  font-size: 1.08rem;
+}
+
+.ecommerce-insight {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  border-color: #bddfd8;
+  background: #e9f5f2;
+}
+
+.ecommerce-insight strong {
+  color: #0b7567;
+  font-size: 1.35rem;
+}
+
+.ecommerce-insight span {
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.ecommerce-bars {
+  display: flex;
+  align-items: end;
+  gap: 8px;
+  height: 54px;
+  padding: 0 4px;
+}
+
+.ecommerce-bars span {
+  flex: 1;
+  height: 38%;
+  border-radius: 4px 4px 0 0;
+  background: #0f7b6c;
+}
+
+.ecommerce-bars span:nth-child(2) { height: 57%; }
+.ecommerce-bars span:nth-child(3) { height: 44%; }
+.ecommerce-bars span:nth-child(4) { height: 72%; }
+.ecommerce-bars span:nth-child(5) { height: 60%; }
+.ecommerce-bars span:nth-child(6) { height: 88%; }
+.ecommerce-bars span:nth-child(7) { height: 68%; }
+.ecommerce-bars span:nth-child(8) { height: 96%; }
+
 .sheet-preview {
   display: flex;
   flex-direction: column;
